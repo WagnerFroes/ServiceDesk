@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRQ Chamados</title>
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link rel="stylesheet" type="text/css" href="css/administracao.css">
+    <link rel="stylesheet" type="text/css" href="css/navegador.css">
+    <script src="js_style/js02_nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/user.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="userside" class="usersideclass" onclick="openuser()">
+    <div id="nome">Giovanni</div>
+    <div id="Usuarioinform" class="usuarioinformclass">
+    <div id="usuariofoto" class="usuariofotoclass"></div>
+    <div id="nome">Nome:   Giovanni</div>
+    <div id="nome">E-mail:   Dethgun21@gmail.com</div>
+    </div>
+</div>
+
+<div id="usercloss" class="userclossclass">
+</div>
+<script src="js_style/user.js"></script> 
+
+
+    <div class="Lista1">
+        <div class="Lista3">
+            <div class="wrapper">
+                <form class="contact100-form validate-form">
+
+                    <div class="wrap-input100 validate-input" data-validate="Necessário colocar nome">
+                        <span class="label-input100">Nome</span>
+                        <input class="input100" type="text" name="name" placeholder="Nome">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Necessário colocar sobrenome">
+                        <span class="label-input100">Sobrenome</span>
+                        <input class="input100" type="text" name="sobrenome" placeholder="Sobrenome">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 input100-select">
+                        <span class="label-input100">Tipo de usuário</span>
+                        <div>
+                            <select class="selection-2" name="service">
+                                <option>Usuário Comum</option>
+                                <option>Administrador</option>
+                            </select>
+                        </div>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Email invalido: exemplo@email.com">
+                        <span class="label-input100">Email</span>
+                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Senha requisito: mínimo 5 e máximo 32 caracteres">
+                        <span class="label-input100">Senha</span>
+                        <input class="input100" type="password" name="email" placeholder="Senha">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="container-contact100-form-btn">
+                        <div class="wrap-contact100-form-btn">
+                            <div class="contact100-form-bgbtn"></div>
+                            <button class="contact100-form-btn">
+                                <span>
+                                    Cadastrar
+                                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="dropDownSelect1"></div>
+
+            <!--===============================================================================================-->
+            <!--===============================================================================================-->
+
+            <!--===============================================================================================-->
+            <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="vendor/animsition/js_style/animsition.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="vendor/bootstrap/js_style/popper.js"></script>
+            <script src="vendor/bootstrap/js_style/bootstrap.min.js"></script>
+            <!--===============================================================================================-->
+            <script src="vendor/select2/select2.min.js"></script>
+            <script>
+                $(".selection-2").select2({
+                    minimumResultsForSearch: 20,
+                    dropdownParent: $('#dropDownSelect1')
+                });
+            </script>
+            <!--===============================================================================================-->
+            <script src="vendor/daterangepicker/moment.min.js"></script>
+            <script src="vendor/daterangepicker/daterangepicker.js"></script>
+            <!--===============================================================================================-->
+            <script src="vendor/countdowntime/countdowntime.js"></script>
+            <!--===============================================================================================-->
+            <script src="js_style/main.js"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-23581568-13');
+            </script>
+
+            <!--===============================================================================================-->
+            <!--===============================================================================================-->
+            <!--===============================================================================================-->
+
+            <script src="js_style/js04_btn.js"></script>
+
+
+
+        </div>
+        <div class="Lista4">
+            <div id="Usuario">
+                Usuário
+            </div>
+            <div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div><div id="Usuario">
+                Usuário
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- ------------------------------------------------------------ MENU ------------------------------------------------------------ -->
+    <div class="container">
+        <div class="component">
+            <!------------------------------------------ Start Nav Structure 4 ------------------------------------------>
+            <button class="cn-button cn-button5" id="cn-button">+</button>
+            <div class="cn-wrapper cn-wrapper5" id="cn-wrapper">
+                <ul>
+                    <!--IMG COM O ICON-->
+                    <li><a href="adminstracao.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMjSURBVFhH7ZhdaI5hHMbXfE6JEVbLRitKbYtaDQkpBxzszAlHUlIcEBE7cKLNLC3EASOfyUfMx9GGZKWsfJQcKTlA0uRzjBm/a64ta++z57Y8z0r71dX93Nf9v5//f/f7PO9738saYogAOjs7Z6Lt6DhqRHdQvocHD4ooRy0/Ddff0TMkjmANc2j6UEAl+oFaKaSatpR2uMcaXPB7dJrLvK5JaUHSdS7gOppiuwe8CWgNOoy0qq9ROh85iQrRN3SXGkfajoS4eagdNdlKFhLtQ6LEVizE7vKKl9pKDpI8Qc3uBkF8kQqEnbaSgQQjSNaB9tsKhrnvmHfG3eTQMpCoxt1gmPMcXXM3OUjyBp1wNxjmtKLz7iYHSS6iVyxktq1YiC/xylfaSg6SHFQymGYrFuZUaQJtha3kIMlb1OhuEMQXusA6W8lBko/orLtBEJ+D9PbvtZUcJLmMPqByW/3CwmUTu9EruMp2cpBkFnqKtEmIfVGIq3BxzWiU7WQh0VonnWMrEmKOoa+Ej7GVPCScivRMHbWVEcYnIj2zV22lB0lPIe0Hl9rqA2PatGqlF9pKD/LmkVi/Djdt9QI/38WdtJU+JNfv6x13e0FtBSoQttlKHxeYcSOKP8kFJrvFioLE4ymiDV2w1Qv8saqOtt5WepBXz1+TC9hD0+f0hpfLmFZYb/t6+sGbiwFDoumolmTafOoNbuNaRaoQnfLK0GJUj7rH9B2o9j5ajXJ8u38HN12ALqEOJ7uF5nI5jnYDeiy/G8WhK2gZ3dG0W9BLj+nNr0WFvv3A4SZakRu+8Reklcl4WMKvU5xZZLsHPB0XVqDbCqDVSe8QmuyQv4OJm5HOtJ9QTdyNGC9C4pGtSIiZjRq6on+fmed7KAwmbPJfeY+mwHa/ENt1cqONLbAbYpcjfeSfUdiRlMAZSAfzFhS8+yB2qwoUuoftWIgtRnp8HjA1/k0n8ICTlNkKgvg//4m0w3YQTKn2vCW2oiFIe70XxOeGivhi2h7oP6TJGJtJKoxW83a7jGgIalfwIHHOZURDgSsJ1JKnKvJWodgN8BD/GVlZvwCKr/C6LXnx0gAAAABJRU5ErkJggg=="></a></li>
+                    <!--IMG COM O ICON-->
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEOSURBVFhH7ZYhDsJAEAD7AnAowgvAI9C8AMEXeAH9AThQOCQ/wDQIBJYExQMaBAqFb5m97JGjOUevJOQ2mVx3b9sdxCYkfx9FUezg4GGqLWGDQTlkZVkuLeQ3zlRbwoYKzDQ1QX6KAlGgNgE+NgXfmu30PqyAfIgPylq5a5bJYLmXE4ILnDQ1IQNlsD5HgSjwnQDNHfCtmdAPLkBjD0pe2nLYNVtJjRhBYwIDLUmtLTUiCkSBegQorCmcPaTQiMAejjB3uMCGxsYEFpqaIJe/01EgCjQqcKf4XkHyB7gCV+fuIjXCCjw53XdlqCuQV+6l/0NgAu4KWsbQqtRcujCs1CzmV8tZqVuGZvhvI0leRjNoWd0ErwYAAAAASUVORK5CYII="></a></li>
+                    <!--IMG COM O ICON-->
+                    <li><a href="inicio.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHXSURBVFhH7ZXPK8NhHMeHg2xqBxNXtJKbQlspkTis+BtcRPlxkCwnF/4BRS5ywMVVU3JQrsqvg/KraOHEpJAfm9fnu0+U7za2r++o7V2vnuf7fj7P83l/17PNYUXRaLQOKvQxu6LxEDzDFbSobb9o5oJleIJ+mIMXGInFYgVaZo9o4oUDOIdGtcXvgUdYIUSpepPMtwXmIcYiozhTcUg33ME6h3nU/hB+PZzBIeu1jFuwBrM8i9xamp7YWMQhU/AG8lZJ34T1MgjBPVxTG4RmEKUfgEPKYQNuoUvtlKJRIUxQL4FHmWcWgM1NcAF74FX7x2KPj6YeSD8Am/tAbvkiG51qZyQNEmNsVSu5KCqhdoFRvt8DalsS58kdmtczB9U2i8Uq2IEw+NX+NRGkl3PlU10Cl9pxYQTgBi7Btp9WQhj3gR7yWxK/V0z88ArHsG+YNonebg1wAvLCxWI6mTQwBrMYoAV8aseVzQCoWa1PYf7/AKx3wNg31Gi5SfSwHGCGuggY/3JfYV0uc0DLTaLGegBY1UeTOCOSD5B7AdjXjjeu8z8JUI3XpvP8HcgHsBwgzNibgk0JmcA3YO0BphOtCawNM4rMAVjshCM4tZldAlRq25yXw/EOD0JLi0V3wBsAAAAASUVORK5CYII="></a></li>    
+                    <!--IMG COM O ICON-->
+                    <li><a href="formulario.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIiSURBVFhH7ZY9TxRRFIbXuIhCIl8WFrjo0tjYWGFFQK1siImNjfwASgwmRltIaLSyoaWyICGGjxAUQkKlsZBWFiFWJAsUdrLr8949w87uzpJhmJtQ+CZP7jnn3jnv2dnZj0ypVHoBxbJn4bEPTzP1ongA05x55BM8PkDBbKtiU9M9sdSb8HiO1aGlVV2UAT6yTPkEj3nWpgN8hxXP/DhtgP/PwMUZgHgQJoTl14M8AQOuKSKOPcAYpa9COevNIE/AqGuKYg/gS2e5A/coPRPKWduCPAF3XVN0lgEmVZOUs+QqWSK9ck1R7AF8CZscPi8trap+AOJuSnmhnDUb5AnodE1DotaFxy1LIwfw8hYQX6L3NBxXtspr0BE1QOp3gFXm76FEHNZUwwBpi/aB+R9i/TGZladE/CnqDryForC8N8hjsuMaIVqfmMOQ1S4T6+dfvuNRA5z3e2DErgubD6smUden4Sd8Jm5pGCAN1Zk/tHLYfB3ag2KqAzQzJ+6DbfjCmTYrpztAM3Pqt8kLoNteNZdsgNcskX+nT4Pr+q1Njbn2rKxXfgd2YJV6rbnExm82EolrN9WDMPzKH7vGiDgwX+FMo3lawuAd1JhjmCf/Bcu+ze9jILmPrUStH3ZhCa5Z2Y8w0POjt+Mbyw1Wme/BIvlVO+ZPGG1oAIl4y8wXoNWO+BOeHRj9rdi7AY5ghvCKHfErzHpgDt7AA4yzthVTmcw/S7zP392NbnYAAAAASUVORK5CYII="></a></li>
+                    <!--IMG COM O ICON-->
+                    <li><a href="login.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ9SURBVFhH7ZXNi41hHIZPM2NmZ2ThoywoC1mYxWyokcVYUUpIWCgMYcHCZtTYyML/YKSoWZASM0kpH2nSpIaSsFZqaERo0pzj+h3XOc30fpyvsZiaq+6ec+7f/dzvc2be95zCEouWYrG4Ej1Hg1r/Dy6yEQ2hdVqFUqnUh0p4b7TKYB3AO83aqdU8lLRRdgnNeLHLjjIPwPsf+u9YerUbh4IudC/KAl4/Qqsd5x3gIJpy9hvtd1Q/7G1nY/nilhx3VIVR6gECvLg/xpzPoD2O6oMNQ26Oi/drz4Nx5gECRvEhRsxMs6x3lA/BTWz448aj2gkY5x4gYNzJ/KW5Me18CN52w6hWKkRqHiAgUv1A0KedDsFVlTBrj3YqUWYu9wABmetmb2qlQ+akwVdamRCr+wBzst9Z2rWTELhm8KpWJsQaOUDckJXvh+y/LPMnho5oZUKs7gME5MbN79NKwvC1oV1amRBr9ACj5ge0kjB8YajmtxexbnKP0QWtXMg9tfuQVhKGdwyd01ow6Pxo9w6tJAyvGBrRWhDoi8d7FhWpX6OdhPm2OAB8Q63/nAq9J6KUdUIrHTLx8/vJ8BntlqAqHsG3dl7UzobQWcOfWVZoNw09p+z7wtKtnQ2hZYQ/uOkhS/Y3Vw3Y20vHT7vqv7EJ98zZeAt1OaobL175d95naeyDsGkvqvwwjaPNjnIh3kF2AP1y7yRL7T99GmzcScFXi+IwN1j7WTuMVMGPRy0uXL7hAl4/QMuNNAcFG9BdO8vwfhpNojH0DL1Hs45jPoXO87LNmtahcCsajvJ/l5kPfjCBBnnb8tOTCeXxXG9Bu9ExdBhtR2uNLLGYKBT+Aj5nmr/wEo2qAAAAAElFTkSuQmCC"></a>
+                    </li> <!--FIM DA UL-->
+                    <!-- -------------------------------------------------------------------------------------------------------------------------->
+                </ul>
+            </div>
+            
+            
+            <div id="cn-overlay" class="cn-overlay"></div>
+            <!------------------------------------------------------------------------------------------------------ End Nav Structure ------------------------------------------>
+        </div>
+    </div>
+    <!------------------------------------------ /container ------------------------------------------>
+
+    <script src="js_style/js03_nav.js"></script>
+
+    <div id="myModal" class="modal">
+
+    </div>
+
+    <div id="myModal2" class="modal2">
+
+    </div>
+
+    <div id="myModal3" class="modal3">
+
+    </div>
+
+    <div id="myModal4" class="modal4">
+
+    </div>
+</body>
+
+</html>
+
+<!--
+
+<div>
+    
+    <script>@import="botao com 4"</script>
+
+</div>
+
+
+<div>
+    
+    <script>@import="botao com 5"</script>
+
+</div>
+
+-->

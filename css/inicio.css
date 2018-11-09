@@ -1,0 +1,273 @@
+*{
+    
+}
+
+.element{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+                                                                                            Mobile
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 599px) {
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4%;
+    background: url(files/f.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+.Lista1{
+background: #ffffff;
+text-align: center;
+height: 85%;
+width: auto;
+border-radius: 12px;
+margin-left:15px;
+margin-right: 15px;
+padding: 15px 5px 15px 5px;
+top:7%;
+}
+div.Lista2{
+    height: 96%;
+    overflow: auto;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+table thead{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table tr {
+  background-color: white;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  font-size: 12px;
+  width: 10%;
+  overflow: auto;
+  
+}
+/*==========================================================================================================================================================================================================
+Usuario
+============================================================================================================================================================================================================*/
+#fotousu{
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: #0000ff70;
+}
+.content3{
+    overflow: auto;
+    width: 100%;
+    height:95%;
+}
+div#Usuario2{
+    height: 9%;
+    background-color: white;
+    width: auto;
+    border-radius: 30px;
+    margin: -9% 30% 15% 30%;
+}
+}
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+                                                                                            iPads
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 600px) and (max-device-width : 1223px) {
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4%;
+    background: url(files/f.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+.Lista1{
+    background: #ffffff;
+    text-align: center;
+    height: 90%;
+    width: auto;
+    border-radius: 12px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1%;
+    padding: 15px 5px 15px 5px;
+    top: 7%;
+}
+div.Lista2{
+    height: 90%;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #009cde; 
+    border-radius: 10px;
+}
+table thead{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table tr {
+  background-color: white;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  font-size: 24px;
+  width: 10%;
+  overflow: auto;
+  
+}
+#fotousu{
+    width: 40%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: #0000ff70;
+}
+div#Usuario2{
+    height: 5%;
+    background-color: white;
+    width: auto;
+    border-radius: 0px 0px 36px 36px;
+    margin: -1% 20% 10% 20%;
+}
+}
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+                                                                                            Desktops and laptops
+============================================================================================================================================================================================================*/
+/*==========================================================================================================================================================================================================
+
+============================================================================================================================================================================================================*/
+/* Desktops and laptops ----------- */
+@media only screen  and (min-device-width : 1224px) and (max-device-width : 2560px) {
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.4%;
+    background: url(files/f.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+.Lista1{
+background: #ffffff;
+height: 85%;
+width: auto;
+border-radius: 12px;
+margin-left:13%;
+margin-right: 13%;
+margin-top: 3.70%;
+padding: 15px 5px 15px 5px;
+}
+div.Lista2{
+  width: 100%;
+  height: 98%;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #009cde; 
+    border-radius: 10px;
+}
+table thead{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table tr {
+  background-color: white;
+  padding: .35em;
+
+}
+
+table th,
+table td {
+  padding: .625em;
+  font-size: 100%;
+  overflow: auto;
+  width: 33%;
+  
+}
+#fotousu{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    background: url();
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+} 
+div#Usuario2{
+    height: 6%;
+    background-color: white;
+    width: auto;
+    border-radius: 0px 0px 36px 36px;
+    margin: -1% 35% 1% 35%;
+}
+}
+
+
+
+
+
